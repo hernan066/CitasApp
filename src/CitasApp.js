@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Cita } from './components/Cita';
 import { Formularios } from './components/Formularios'
+import dog from './assets/img/dog.png'
+import cat from './assets/img/cat.svg'
+
 
 const CitasApp = () => {
     
@@ -41,7 +44,12 @@ const CitasApp = () => {
     
     return (
         <>
-            <h1>Administrador de pacientes</h1>
+            <header>
+                <img className="logo animate__animated animate__backInLeft" src={dog} alt=""></img>
+                <h1 className="animate__animated animate__backInDown">Administrador de pacientes</h1>
+                <img className="logo animate__animated animate__backInRight" src={cat} alt=""></img>
+            </header>
+            
             <div className="container">
                 <div className="row">
                     <div className="one-half column">

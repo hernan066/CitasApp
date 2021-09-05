@@ -9,16 +9,47 @@ body {
   min-height: 100%;
   padding-bottom: 5rem;
 }
+header{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 25px;
+  border-bottom: 3px solid white;
+  
+  
+  
+}
+
+.logo{
+  height: 50px;
+}
+
 h1, h2  {
   color: white;
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
   text-align: center;
 
-  text-transform: uppercase;
+  
 
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
 }
+h1{
+  
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 8px #0a000c;
+  text-transform: uppercase;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+}
+h2{
+  font-size: 2.8 rem;
+  margin-top: 30px;
+  text-shadow: 1px 1px 8px #0a000c;
+}
+
+
 .lista-citas .media {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 3rem;
